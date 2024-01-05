@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .item1{
+            border: 1px solid blue;
+            height: 700px;
+            width: 400px;
+            background-image:url(./wp6584970.jpg);
+            background-size: cover;
+            border-radius: 20px;
+        }
+       #img1:checked~.item1{
+            background-image: url(./1f8ab11db79eb509838a10ff6e4a35d4.jpg);
+            background-size: cover;
+        }
+        #img2:checked~.item1{
+            background-image: url(./mahesh\ babu.jpg);
+            background-size: cover;
+        }
+        #img3:checked~.item1{
+            background-image: url(./Actress\ Aditi\ Arya\ Latest\ Photos\,\ Photo\ Shoot\,\ Hot\ Photos_.jpeg);
+            background-size: cover;
+        }
+        #img4:checked~.item1{
+            background-image: url(./95af7a132ee4e2c026c2961a0e0390e3.jpg);
+            background-size: cover;
+        }
+        #img5:checked~.item1{
+            background-image: url(./Actress\ Aditi\ Arya\ Latest\ Photos\,\ Photo\ Shoot\,\ Hot\ Photos_.jpeg);
+            background-size: cover;
+        }
+        body{
+            justify-content: center;
+            margin-left: 500px;
+        }
+        .item{
+            background-color:blue;
+            position: fixed;
+            border-radius: 10px;
+        }
+        input{
+            margin-left: 20px;
+            
+            
+        }
+        span{
+            color: gold;
+            text-transform: capitalize;
+        }
+       
+        
+    </style>
+</head>
+<body>
+ <div class="item">
+
+    <input type="checkbox" name="image" id="img1"><span>img1</span>
+    <input type="checkbox" name="image" id="img2"><span>img2</span>
+    <input type="checkbox" name="image" id="img3"><span>img3</span>
+    <input type="checkbox" name="image" id="img4"><span>img4</span>
+    <input type="checkbox" name="image" id="img5"><span>img5</span>
+
+    <div class="item1"></div>
+</div>
+</body>
+</html>

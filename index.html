@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p1 ,.p2 ,.p3{
+            border: 1px solid brown;
+            height: 400px;
+            width: 400px;
+            border-radius: 20px;
+            background-image: url(./1f8ab11db79eb509838a10ff6e4a35d4.jpg);
+            position: relative;
+        
+        }
+        video{
+            
+            border-radius: 20px;
+            mix-blend-mode: color-burn;
+            
+        }
+        #gh:checked~.p1{
+            background: url(./saalar\ song.mp4) no-repeat;
+        }
+        #gh1:checked~.p2{
+            background: url(./motivational\ song.mp4) no-repeat;
+        }
+        #gh2:checked~.p3{
+            background: url(./super\ star\ video.mp4) no-repeat ;
+        }
+        video{
+            position: absolute;
+            height: auto;
+            width: 100px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <input type="radio" name="gh" id="gh">video1
+    <input type="radio" name="gh" id="gh1">video2
+    <input type="radio" name="gh" id="gh2">video3
+    <div class="p1">
+        <video src="./saalar song.mp4" controls autoplay height="100px" width="100px" class="gh"></video>
+        <video src="./motivational song.mp4" controls autoplay height="100px" width="100px" class="gh1"></video>
+        <video src="./super star video.mp4" controls autoplay height="100px" width="100px" class="gh2"></video>
+    </div>
+    <div class="p2">
+        <video src="./saalar song.mp4" controls autoplay height="100px" width="100px" class="gh"></video>
+        <video src="./motivational song.mp4" controls autoplay height="100px" width="100px" class="gh1"></video>
+        <video src="./super star video.mp4" controls autoplay height="100px" width="100px" class="gh2"></video>
+    </div>
+    <div class="p3">
+        <video src="./saalar song.mp4" controls autoplay height="100px" width="100px" class="gh"></video>
+        <video src="./motivational song.mp4" controls autoplay height="100px" width="100px" class="gh1"></video>
+        <video src="./super star video.mp4" controls autoplay height="100px" width="100px" class="gh2"></video>
+    </div>
+
+</body>
+</html>
